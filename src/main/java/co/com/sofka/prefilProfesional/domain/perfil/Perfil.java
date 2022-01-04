@@ -18,6 +18,7 @@ import java.util.Objects;
 
 public class Perfil  extends AggregateEvent<PerfilId> {
 
+    protected Referencia referencia;
     protected HojaDeVidaId hojaDeVidaId;
     protected InformacionContacto informacionContacto;
     protected FotoPerfil fotoPerfil;

@@ -14,4 +14,12 @@ public class NombreCompletoReferenciaActualizado extends DomainEvent {
         this.referenciaId = referenciaId;
         this.nombreCompleto = nombreCompleto;
     }
+
+    public ReferenciaId getReferenciaId() {
+        return referenciaId;
+    }
+
+    public NombreCompleto getNombreCompleto() {
+        return nombreCompleto;
+    }
 }

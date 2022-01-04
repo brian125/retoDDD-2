@@ -13,17 +13,9 @@ Usrc/main/java/co/com/sofka/prefilProfesional/domain/perfil/values/NombreComplet
 Ssrc/main/java/co/com/sofka/prefilProfesional/domain/perfil/values/ReferenciaId.java,d\6\d64fb7726d1fc1c57703792fe37a06e07b2905b7
 á
 Wsrc/main/java/co/com/sofka/prefilProfesional/domain/experiencia/values/Institucion.java,e\9\e9e6fb45397e2e22471128175f949ab14622e1bf
-ì
-csrc/main/java/co/com/sofka/prefilProfesional/domain/experiencia/values/ConocimientosAdquiridos.java,2\a\2a8fb0e41a7039010901349f0dd2cc1bc7632a3a
 ê
 `src/main/java/co/com/sofka/prefilProfesional/domain/experiencia/values/ExperienciaLaboralId.java,1\b\1b4dc87e21d3698fc843233d699998ba05a2c3ab
 â
 Ysrc/main/java/co/com/sofka/prefilProfesional/domain/experiencia/values/ExperienciaId.java,b\d\bdbcb3003da1ad8421a8c9c9c675df10f0e461fc
 É
 Ssrc/main/java/co/com/sofka/prefilProfesional/domain/experiencia/values/Periodo.java,b\9\b94f33cff2e16e267a4da7b51cd2c4d1b77fd9f2
-ç
-]src/main/java/co/com/sofka/prefilProfesional/domain/experiencia/events/ExperienciaCreada.java,1\0\1046b07e5da143e09a2d70ba1ddefc7880bd8159
-é
-^src/main/java/co/com/sofka/prefilProfesional/domain/experiencia/commands/CrearExperiencia.java,b\1\b11af60680c35819b954cbaba45e147d0a9dc3c9
-ú
-lsrc/main/java/co/com/sofka/prefilProfesional/domain/experiencia/commands/AgregarNuevaExperienciaLaboral.java,0\8\0825997d7d1054a1655300db2f7190ba8655011a

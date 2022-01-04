@@ -5,11 +5,11 @@ import co.com.sofka.domain.generic.ValueObject;
 import java.util.Objects;
 import java.util.Set;
 
-public class ConocimientosAdquiridos implements ValueObject<Set<String>> {
+public class ConocimientosAdquiridos implements ValueObject<String> {
 
-    private final Set<String> value;
+    private final String value;
 
-    public ConocimientosAdquiridos(Set<String> value) {
+    public ConocimientosAdquiridos(String value) {
         this.value = Objects.requireNonNull(value);
         if(value.isEmpty()) {
             throw new IllegalArgumentException("Los conococimientos adquiridos no pueden ir vacios");
@@ -30,7 +30,7 @@ public class ConocimientosAdquiridos implements ValueObject<Set<String>> {
     }
 
     @Override
-    public Set<String> value() {
+    public String value() {
         return value;
     }
 }

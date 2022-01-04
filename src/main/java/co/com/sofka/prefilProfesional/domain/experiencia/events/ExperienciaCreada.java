@@ -5,7 +5,7 @@ import co.com.sofka.prefilProfesional.domain.generics.HojaDeVidaId;
 
 public class ExperienciaCreada extends DomainEvent {
 
-    private HojaDeVidaId hojaDeVidaId;
+    private final HojaDeVidaId hojaDeVidaId;
 
     public ExperienciaCreada(HojaDeVidaId hojaDeVidaId) {
         super("sofka.experiencia.experienciacreada");

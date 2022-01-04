@@ -5,8 +5,8 @@ import co.com.sofka.prefilProfesional.domain.experiencia.values.ExperienciaLabor
 import co.com.sofka.prefilProfesional.domain.generics.Periodo;
 
 public class PeriodoExperinciaLaboralActualizado extends DomainEvent {
-    private ExperienciaLaboralId experienciaLaboralId;
-    private Periodo periodo;
+    private final ExperienciaLaboralId experienciaLaboralId;
+    private final Periodo periodo;
 
     public PeriodoExperinciaLaboralActualizado(ExperienciaLaboralId experienciaLaboralId, Periodo periodo) {
         super("Periodo experiencia laboral actualizado");

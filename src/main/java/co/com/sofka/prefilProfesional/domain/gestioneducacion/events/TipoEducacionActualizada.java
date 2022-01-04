@@ -5,8 +5,8 @@ import co.com.sofka.prefilProfesional.domain.gestioneducacion.values.EducacionId
 import co.com.sofka.prefilProfesional.domain.gestioneducacion.values.Tipo;
 
 public class TipoEducacionActualizada extends DomainEvent {
-    private EducacionId educacionId;
-    private Tipo tipo;
+    private final EducacionId educacionId;
+    private final Tipo tipo;
 
     public TipoEducacionActualizada(EducacionId educacionId, Tipo tipo) {
         super("sofka.gestioneducacion.tipoeducacionactualizada");

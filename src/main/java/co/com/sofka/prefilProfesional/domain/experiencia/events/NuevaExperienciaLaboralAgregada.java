@@ -9,12 +9,12 @@ import java.util.Set;
 
 public class NuevaExperienciaLaboralAgregada extends DomainEvent {
 
-    private ExperienciaLaboralId id;
-    private Institucion institucion;
-    private Periodo periodo;
-    private Set<ConocimientosAdquiridos> conocimientosAdquiridos;
+    private final ExperienciaLaboralId id;
+    private final Institucion institucion;
+    private final Periodo periodo;
+    private final ConocimientosAdquiridos conocimientosAdquiridos;
 
-    public NuevaExperienciaLaboralAgregada(ExperienciaLaboralId id, Institucion institucion, Periodo periodo, Set<ConocimientosAdquiridos> conocimientosAdquiridos) {
+    public NuevaExperienciaLaboralAgregada(ExperienciaLaboralId id, Institucion institucion, Periodo periodo, ConocimientosAdquiridos conocimientosAdquiridos) {
         super("sofka.experiencia.nuevaexperiencialaboralagregada");
         this.id = id;
         this.institucion = institucion;
@@ -33,7 +33,7 @@ public class NuevaExperienciaLaboralAgregada extends DomainEvent {
         return periodo;
     }
 
-    public Set<ConocimientosAdquiridos> getConocimientosAdquiridos() {
+    public ConocimientosAdquiridos getConocimientosAdquiridos() {
         return conocimientosAdquiridos;
     }
 }

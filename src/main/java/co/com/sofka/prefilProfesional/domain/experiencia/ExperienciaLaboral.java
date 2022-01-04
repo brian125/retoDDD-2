@@ -13,9 +13,9 @@ public class ExperienciaLaboral extends Entity<ExperienciaLaboralId> {
 
     protected Institucion institucion;
     protected Periodo periodo;
-    protected Set<ConocimientosAdquiridos> conocimientosAdquiridos;
+    protected ConocimientosAdquiridos conocimientosAdquiridos;
 
-    public ExperienciaLaboral(ExperienciaLaboralId entityId, Institucion institucion, Periodo periodo, Set<ConocimientosAdquiridos> conocimientosAdquiridos) {
+    public ExperienciaLaboral(ExperienciaLaboralId entityId, Institucion institucion, Periodo periodo, ConocimientosAdquiridos conocimientosAdquiridos) {
         super(entityId);
         this.institucion = Objects.requireNonNull(institucion);
         this.periodo = Objects.requireNonNull(periodo);
@@ -35,7 +35,7 @@ public class ExperienciaLaboral extends Entity<ExperienciaLaboralId> {
         return periodo;
     }
 
-    public Set<ConocimientosAdquiridos> conocimientosAdquiridos() {
+    public ConocimientosAdquiridos conocimientosAdquiridos() {
         return conocimientosAdquiridos;
     }
 }

@@ -10,12 +10,12 @@ import co.com.sofka.prefilProfesional.domain.gestioneducacion.values.Tipo;
 
 public class NuevaEducacionAgregada extends DomainEvent {
 
-    private EducacionId id;
-    private TarjetaProfesional tarjetaProfesional;
-    private Tipo tipo;
-    private Estudio estudio;
-    private Institucion institucion;
-    private Periodo periodo;
+    private final EducacionId id;
+    private final TarjetaProfesional tarjetaProfesional;
+    private final Tipo tipo;
+    private final Estudio estudio;
+    private final Institucion institucion;
+    private final Periodo periodo;
 
     public NuevaEducacionAgregada(EducacionId id, TarjetaProfesional tarjetaProfesional, Tipo tipo, Estudio estudio, Institucion institucion, Periodo periodo) {
         super("sofka.gestioneducacion.educacionagregada");

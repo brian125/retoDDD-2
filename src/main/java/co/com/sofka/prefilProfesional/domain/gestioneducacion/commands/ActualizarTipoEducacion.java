@@ -5,13 +5,13 @@ import co.com.sofka.prefilProfesional.domain.gestioneducacion.values.EducacionId
 import co.com.sofka.prefilProfesional.domain.gestioneducacion.values.GestionEducacionId;
 import co.com.sofka.prefilProfesional.domain.gestioneducacion.values.Tipo;
 
-public class actualizarTipoEducacion extends Command {
+public class ActualizarTipoEducacion extends Command {
 
     private final GestionEducacionId gestionEducacionId;
     private final EducacionId educacionId;
     private final Tipo tipo;
 
-    public actualizarTipoEducacion(GestionEducacionId gestionEducacionId, EducacionId educacionId, Tipo tipo) {
+    public ActualizarTipoEducacion(GestionEducacionId gestionEducacionId, EducacionId educacionId, Tipo tipo) {
         this.gestionEducacionId = gestionEducacionId;
         this.educacionId = educacionId;
         this.tipo = tipo;

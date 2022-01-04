@@ -5,9 +5,6 @@ import co.com.sofka.prefilProfesional.domain.perfil.events.NombreCompletoReferen
 import co.com.sofka.prefilProfesional.domain.perfil.events.NuevaReferenciaAgregada;
 import co.com.sofka.prefilProfesional.domain.perfil.events.PerfilCreado;
 
-
-import java.util.HashSet;
-
 public class PerfilChange extends EventChange {
     public PerfilChange(Perfil perfil) {
 

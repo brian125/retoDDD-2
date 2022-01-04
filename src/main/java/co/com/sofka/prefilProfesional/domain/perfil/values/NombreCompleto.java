@@ -1,4 +1,4 @@
-package co.com.sofka.prefilProfesional.domain.generics;
+package co.com.sofka.prefilProfesional.domain.perfil.values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
@@ -13,7 +13,7 @@ public class NombreCompleto implements ValueObject<String> {
         if(this.value.isBlank()){
             throw new IllegalArgumentException("El nombre competo no puede ir en blanco");
         }
-        if(this.value.length() > 5){
+        if(this.value.length() < 5){
             throw new IllegalArgumentException("El nombre no puede tener menos de 5 letras");
         }
     }

@@ -1,4 +1,4 @@
-package co.com.sofka.prefilProfesional.domain.generics;
+package co.com.sofka.prefilProfesional.domain.perfil.values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
@@ -13,7 +13,7 @@ public class Cedula implements ValueObject<String> {
         if(this.value.isBlank()){
             throw new IllegalArgumentException("La cedula no puede estar vacía");
         }
-        if(this.value.length() >= 5 && this.value.length() <= 15){
+        if(this.value.length() < 5 || this.value.length() > 15){
             throw new IllegalArgumentException("La cedula no puede tener menos de 5 y mas de 15 caracteres");
         }
         if (!this.value.matches("[0-9]*")){

@@ -2,8 +2,8 @@ package co.com.sofka.prefilProfesional.domain.perfil;
 
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.domain.generic.DomainEvent;
-import co.com.sofka.prefilProfesional.domain.generics.Cedula;
-import co.com.sofka.prefilProfesional.domain.generics.NombreCompleto;
+import co.com.sofka.prefilProfesional.domain.perfil.values.Cedula;
+import co.com.sofka.prefilProfesional.domain.perfil.values.NombreCompleto;
 import co.com.sofka.prefilProfesional.domain.perfil.events.NombreCompletoReferenciaActualizado;
 import co.com.sofka.prefilProfesional.domain.perfil.events.NuevaReferenciaAgregada;
 import co.com.sofka.prefilProfesional.domain.perfil.events.PerfilCreado;

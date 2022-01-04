@@ -2,7 +2,7 @@ package co.com.sofka.prefilProfesional.domain.experiencia.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
 import co.com.sofka.prefilProfesional.domain.experiencia.values.ExperienciaLaboralId;
-import co.com.sofka.prefilProfesional.domain.experiencia.values.Periodo;
+import co.com.sofka.prefilProfesional.domain.generics.Periodo;
 
 public class PeriodoExperinciaLaboralActualizado extends DomainEvent {
     private ExperienciaLaboralId experienciaLaboralId;

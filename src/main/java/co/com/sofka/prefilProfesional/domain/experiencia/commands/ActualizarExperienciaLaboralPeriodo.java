@@ -3,7 +3,7 @@ package co.com.sofka.prefilProfesional.domain.experiencia.commands;
 import co.com.sofka.domain.generic.Command;
 import co.com.sofka.prefilProfesional.domain.experiencia.values.ExperienciaId;
 import co.com.sofka.prefilProfesional.domain.experiencia.values.ExperienciaLaboralId;
-import co.com.sofka.prefilProfesional.domain.experiencia.values.Periodo;
+import co.com.sofka.prefilProfesional.domain.generics.Periodo;
 
 public class ActualizarExperienciaLaboralPeriodo extends Command {
 

@@ -7,6 +7,8 @@ import co.com.sofka.prefilProfesional.domain.experiencia.events.NuevaExperiencia
 import co.com.sofka.prefilProfesional.domain.experiencia.events.PeriodoExperinciaLaboralActualizado;
 import co.com.sofka.prefilProfesional.domain.experiencia.values.*;
 import co.com.sofka.prefilProfesional.domain.generics.HojaDeVidaId;
+import co.com.sofka.prefilProfesional.domain.generics.Institucion;
+import co.com.sofka.prefilProfesional.domain.generics.Periodo;
 
 import java.util.List;
 import java.util.Objects;

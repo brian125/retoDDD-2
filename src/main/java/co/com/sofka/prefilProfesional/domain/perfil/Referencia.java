@@ -16,9 +16,9 @@ public class Referencia extends Entity<ReferenciaId> {
 
     public Referencia(ReferenciaId entityId, Cedula cedula, InformacionContacto informacionContacto, NombreCompleto nombreCompleto) {
         super(entityId);
-        this.cedula = cedula;
-        this.informacionContacto = informacionContacto;
-        this.nombreCompleto = nombreCompleto;
+        this.cedula = Objects.requireNonNull(cedula);
+        this.informacionContacto = Objects.requireNonNull(informacionContacto);
+        this.nombreCompleto = Objects.requireNonNull(nombreCompleto);
     }
 
     public void actualizarNombreCompleto(NombreCompleto nombreCompleto){

@@ -1,4 +1,4 @@
-package co.com.sofka.prefilProfesional.domain.experiencia.values;
+package co.com.sofka.prefilProfesional.domain.generics;
 
 import co.com.sofka.domain.generic.ValueObject;
 

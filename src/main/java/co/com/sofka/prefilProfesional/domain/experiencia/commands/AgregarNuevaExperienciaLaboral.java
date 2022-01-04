@@ -1,11 +1,10 @@
 package co.com.sofka.prefilProfesional.domain.experiencia.commands;
 
 import co.com.sofka.domain.generic.Command;
-import co.com.sofka.prefilProfesional.domain.experiencia.ExperienciaLaboral;
 import co.com.sofka.prefilProfesional.domain.experiencia.values.ExperienciaId;
 import co.com.sofka.prefilProfesional.domain.experiencia.values.ExperienciaLaboralId;
-import co.com.sofka.prefilProfesional.domain.experiencia.values.Institucion;
-import co.com.sofka.prefilProfesional.domain.experiencia.values.Periodo;
+import co.com.sofka.prefilProfesional.domain.generics.Institucion;
+import co.com.sofka.prefilProfesional.domain.generics.Periodo;
 
 public class AgregarNuevaExperienciaLaboral extends Command {
 

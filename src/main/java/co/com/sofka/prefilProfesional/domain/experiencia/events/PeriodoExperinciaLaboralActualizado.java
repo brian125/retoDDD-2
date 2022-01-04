@@ -9,7 +9,7 @@ public class PeriodoExperinciaLaboralActualizado extends DomainEvent {
     private final Periodo periodo;
 
     public PeriodoExperinciaLaboralActualizado(ExperienciaLaboralId experienciaLaboralId, Periodo periodo) {
-        super("Periodo experiencia laboral actualizado");
+        super("sofka.experiencia.periodoactualizado");
         this.experienciaLaboralId = experienciaLaboralId;
         this.periodo = periodo;
     }

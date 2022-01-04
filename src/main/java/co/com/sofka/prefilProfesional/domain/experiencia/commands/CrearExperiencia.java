@@ -9,12 +9,10 @@ public class CrearExperiencia extends Command {
 
     private final ExperienciaId experienciaId;
     private final HojaDeVidaId hojaDeVidaId;
-    private final ExperienciaLaboral experienciaLaboral;
 
-    public CrearExperiencia(ExperienciaId experienciaId, HojaDeVidaId hojaDeVidaId, ExperienciaLaboral experienciaLaboral) {
+    public CrearExperiencia(ExperienciaId experienciaId, HojaDeVidaId hojaDeVidaId) {
         this.experienciaId = experienciaId;
         this.hojaDeVidaId = hojaDeVidaId;
-        this.experienciaLaboral = experienciaLaboral;
     }
 
     public ExperienciaId getIdExperiencia() {
@@ -23,10 +21,6 @@ public class CrearExperiencia extends Command {
 
     public HojaDeVidaId getHojaDeVidaId() {
         return hojaDeVidaId;
-    }
-
-    public ExperienciaLaboral getExperienciaLaboral() {
-        return experienciaLaboral;
     }
 
 }

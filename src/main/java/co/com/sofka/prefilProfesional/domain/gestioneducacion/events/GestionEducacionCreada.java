@@ -5,7 +5,6 @@ import co.com.sofka.prefilProfesional.domain.generics.HojaDeVidaId;
 
 public class GestionEducacionCreada extends DomainEvent {
 
-
     private final HojaDeVidaId hojaDeVidaId;
 
     public GestionEducacionCreada(HojaDeVidaId hojaDeVidaId) {

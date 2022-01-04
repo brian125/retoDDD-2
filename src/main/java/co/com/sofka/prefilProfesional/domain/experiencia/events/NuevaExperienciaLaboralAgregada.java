@@ -5,7 +5,6 @@ import co.com.sofka.prefilProfesional.domain.experiencia.values.*;
 import co.com.sofka.prefilProfesional.domain.generics.Institucion;
 import co.com.sofka.prefilProfesional.domain.generics.Periodo;
 
-import java.util.Set;
 
 public class NuevaExperienciaLaboralAgregada extends DomainEvent {
 
@@ -19,6 +18,7 @@ public class NuevaExperienciaLaboralAgregada extends DomainEvent {
         this.id = id;
         this.institucion = institucion;
         this.periodo = periodo;
+        this.conocimientosAdquiridos = conocimientosAdquiridos;
     }
 
     public ExperienciaLaboralId getId() {

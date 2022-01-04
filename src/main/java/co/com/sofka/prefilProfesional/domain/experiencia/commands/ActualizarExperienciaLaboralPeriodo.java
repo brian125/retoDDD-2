@@ -12,6 +12,7 @@ public class ActualizarExperienciaLaboralPeriodo extends Command {
     private final Periodo periodo;
 
     public ActualizarExperienciaLaboralPeriodo(ExperienciaId experienciaId, ExperienciaLaboralId experienciaLaboralId, Periodo periodo) {
+
         this.experienciaId = experienciaId;
         this.experienciaLaboralId = experienciaLaboralId;
         this.periodo = periodo;

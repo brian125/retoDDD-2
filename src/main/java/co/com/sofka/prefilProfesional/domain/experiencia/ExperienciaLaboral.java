@@ -11,9 +11,9 @@ import java.util.Set;
 
 public class ExperienciaLaboral extends Entity<ExperienciaLaboralId> {
 
-    private Institucion institucion;
-    private Periodo periodo;
-    private Set<ConocimientosAdquiridos> conocimientosAdquiridos;
+    protected Institucion institucion;
+    protected Periodo periodo;
+    protected Set<ConocimientosAdquiridos> conocimientosAdquiridos;
 
     public ExperienciaLaboral(ExperienciaLaboralId entityId, Institucion institucion, Periodo periodo, Set<ConocimientosAdquiridos> conocimientosAdquiridos) {
         super(entityId);

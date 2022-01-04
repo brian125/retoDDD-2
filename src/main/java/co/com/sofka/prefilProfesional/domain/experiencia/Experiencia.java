@@ -10,6 +10,7 @@ import co.com.sofka.prefilProfesional.domain.generics.HojaDeVidaId;
 
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 public class Experiencia extends AggregateEvent<ExperienciaId> {
 
@@ -33,7 +34,7 @@ public class Experiencia extends AggregateEvent<ExperienciaId> {
         return experiencia;
     }
 
-    public void agregarExperienciaLaboral(Institucion institucion, Periodo periodo, ConocimientosAdquiridos conocimientosAdquiridos) {
+    public void agregarExperienciaLaboral(Institucion institucion, Periodo periodo, Set<ConocimientosAdquiridos> conocimientosAdquiridos) {
         var id = new ExperienciaLaboralId();
         Objects.requireNonNull(id);
         Objects.requireNonNull(institucion);

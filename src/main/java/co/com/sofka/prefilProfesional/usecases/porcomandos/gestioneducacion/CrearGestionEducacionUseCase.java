@@ -5,8 +5,6 @@ import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;
 import co.com.sofka.prefilProfesional.domain.gestioneducacion.GestionEducacion;
 import co.com.sofka.prefilProfesional.domain.gestioneducacion.commands.CrearGestionEducacion;
-import co.com.sofka.prefilProfesional.domain.perfil.Perfil;
-import co.com.sofka.prefilProfesional.domain.perfil.commands.CrearPerfil;
 
 public class CrearGestionEducacionUseCase extends UseCase<RequestCommand<CrearGestionEducacion>, ResponseEvents> {
 

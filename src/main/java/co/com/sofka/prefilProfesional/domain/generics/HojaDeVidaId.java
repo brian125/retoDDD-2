@@ -15,8 +15,6 @@ public class HojaDeVidaId implements ValueObject<String> {
         }
     }
 
-
-
     @Override
     public String value() {
         return value;

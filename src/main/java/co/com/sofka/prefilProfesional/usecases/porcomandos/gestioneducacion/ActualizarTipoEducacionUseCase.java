@@ -3,6 +3,7 @@ package co.com.sofka.prefilProfesional.usecases.porcomandos.gestioneducacion;
 import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;
+import co.com.sofka.prefilProfesional.domain.experiencia.Experiencia;
 import co.com.sofka.prefilProfesional.domain.generics.HojaDeVidaId;
 import co.com.sofka.prefilProfesional.domain.generics.Institucion;
 import co.com.sofka.prefilProfesional.domain.generics.Periodo;
@@ -22,17 +23,9 @@ public class ActualizarTipoEducacionUseCase extends UseCase<RequestCommand<Actua
 
         GestionEducacion gestionEducacion;
 
-        gestionEducacion = new GestionEducacion(
-                new GestionEducacionId(),
-                new HojaDeVidaId("cvxxx")
-        );
-
-        gestionEducacion.agregarNuevaEducacion(
-                new TarjetaProfesional("y", true),
-                new Tipo("Profesional"),
-                new Estudio("Ingenieria de sistemas"),
-                new Institucion("Politecnico Colombiano JIC"),
-                new Periodo("2017/01/01 - 2021/12/31")
+        gestionEducacion = GestionEducacion.from(
+                command.getGestionEducacionId(),
+                retrieveEvents()
         );
 
         gestionEducacion.actualizarTipoEducacion(

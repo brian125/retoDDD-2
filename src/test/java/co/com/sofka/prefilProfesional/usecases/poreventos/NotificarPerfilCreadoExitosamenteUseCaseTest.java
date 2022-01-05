@@ -37,7 +37,7 @@ class NotificarPerfilCreadoExitosamenteUseCaseTest {
         event.setAggregateRootId(perfilId.value());
         var useCase = new NotificarPerfilCreadoExitosamenteUseCase();
 
-        when(notificacionService.enviar(
+        when(notificacionService.enviarPerfil(
                 "soporte@sofkaperfil.com",
                 "Perfil creado exitosamente",
                 perfilId
@@ -51,7 +51,7 @@ class NotificarPerfilCreadoExitosamenteUseCaseTest {
                 .syncExecutor(useCase, new TriggeredEvent<>(event))
                 .orElseThrow();
 
-        verify(notificacionService).enviar(
+        verify(notificacionService).enviarPerfil(
                 "soporte@sofkaperfil.com",
                 "Perfil creado exitosamente",
                 perfilId
@@ -70,7 +70,7 @@ class NotificarPerfilCreadoExitosamenteUseCaseTest {
         event.setAggregateRootId(perfilId.value());
         var useCase = new NotificarPerfilCreadoExitosamenteUseCase();
 
-        when(notificacionService.enviar(
+        when(notificacionService.enviarPerfil(
                 "soporte@sofkaperfil.com",
                 "Perfil creado exitosamente",
                 perfilId

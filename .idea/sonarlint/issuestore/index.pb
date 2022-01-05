@@ -26,8 +26,6 @@ _src/main/java/co/com/sofka/prefilProfesional/domain/perfil/commands/AgregarNuev
 õ
 ksrc/main/java/co/com/sofka/prefilProfesional/domain/perfil/commands/ActualizarNombreCompletoReferencia.java,d\3\d3c0c8121290245fabfe9bc6c222ca2c28ce53d8
 ò
-hsrc/main/java/co/com/sofka/prefilProfesional/domain/gestioneducacion/commands/AgregarNuevaEducacion.java,4\a\4a89b3b70bb8895f6c971837995a35139923bdba
-ò
 hsrc/main/java/co/com/sofka/prefilProfesional/domain/gestioneducacion/commands/CrearGestionEducacion.java,5\e\5e4d79946d0eafc05a7923f96d86a5ffd781bffe
 ê
 `src/main/java/co/com/sofka/prefilProfesional/domain/gestioneducacion/GestionEducacionChange.java,3\0\30558adf12885390239ca241540e19f94ba4b246
@@ -67,16 +65,12 @@ tsrc/main/java/co/com/sofka/prefilProfesional/usecases/porcomandos/gestioneducac
 Zsrc/main/java/co/com/sofka/prefilProfesional/domain/gestioneducacion/GestionEducacion.java,f\1\f193dc40c8abab7b20278eeaba4851627b9a5447
 Ä
 Psrc/main/java/co/com/sofka/prefilProfesional/domain/experiencia/Experiencia.java,c\c\cc347b49b7946478f80bdc24478310b802459986
-á
-Wsrc/main/java/co/com/sofka/prefilProfesional/domain/experiencia/ExperienciaLaboral.java,1\6\16bf3bd65797c6743edc6d4ae1b3258c553a6055
 ö
 jsrc/main/java/co/com/sofka/prefilProfesional/usecases/porcomandos/experiencia/CrearExperienciaUseCase.java,2\6\266836fe2826a8425e17d10dcaaa2dbce16d5759
 ü
 osrc/main/java/co/com/sofka/prefilProfesional/domain/experiencia/events/PeriodoExperinciaLaboralActualizado.java,5\3\5390df5af4594844bc367cc6e17ba571f52a9af0
 °
 qsrc/main/java/co/com/sofka/prefilProfesional/domain/experiencia/commands/ActualizarExperienciaLaboralPeriodo.java,d\f\df38397141168e53f8da49c106de585a5bdfb680
-®
-xsrc/test/java/co/com/sofka/prefilProfesional/usecases/porcomandos/gestioneducacion/CrearGestionEducacionUseCaseTest.java,8\d\8d233982639ad8630c0d511621ae8623ce2f52a6
 y
 Isrc/main/java/co/com/sofka/prefilProfesional/domain/generics/Periodo.java,a\6\a6a4a7429702e7b93b32bb4e61f853e04bd835ff
 ≤

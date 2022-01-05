@@ -18,7 +18,7 @@ public class NotificarPerfilCreadoExitosamenteUseCase extends UseCase<TriggeredE
         var event = triggeredEvent.getDomainEvent();
         var service = getService(EnviarNotificacionService.class).orElseThrow();
 
-        Boolean esValido = service.enviar(
+        Boolean esValido = service.enviarPerfil(
                 "soporte@sofkaperfil.com",
                 "Perfil creado exitosamente",
                 PerfilId.of(event.aggregateRootId())

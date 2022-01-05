@@ -13,12 +13,9 @@ public class Periodo implements ValueObject<String> {
         if(this.value.isBlank()){
             throw new IllegalArgumentException("El periodo no puede estar vacío");
         }
-        if (this.value.length() > 25) {
-            throw new IllegalArgumentException("La fecha del periodo no puede contener mas de 25 caracteres");
+        if (!this.value.matches("[0-9]*")){
+            throw new IllegalArgumentException("El periodo solo debe contener el numero de meses");
         }
-        /*if (!this.value.matches("[/s][-][/][0-9]*")){
-            throw new IllegalArgumentException("La fecha del periodo debe serguir el siguiente formato yyyy/mm/dd - yyyy/mm/dd");
-        }*/
     }
 
     @Override

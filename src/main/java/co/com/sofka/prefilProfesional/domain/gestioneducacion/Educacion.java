@@ -32,7 +32,7 @@ public class Educacion extends Entity<EducacionId> {
         this.tipo = tipo;
     }
 
-    public TarjetaProfesional id() {
+    public TarjetaProfesional tarjetaProfesional() {
         return tarjetaProfesional;
     }
 

@@ -3,14 +3,10 @@ package co.com.sofka.prefilProfesional.usecases.porcomandos.gestioneducacion;
 
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.support.RequestCommand;
-import co.com.sofka.prefilProfesional.domain.experiencia.commands.CrearExperiencia;
-import co.com.sofka.prefilProfesional.domain.experiencia.events.ExperienciaCreada;
-import co.com.sofka.prefilProfesional.domain.experiencia.values.ExperienciaId;
 import co.com.sofka.prefilProfesional.domain.generics.HojaDeVidaId;
 import co.com.sofka.prefilProfesional.domain.gestioneducacion.commands.CrearGestionEducacion;
 import co.com.sofka.prefilProfesional.domain.gestioneducacion.events.GestionEducacionCreada;
 import co.com.sofka.prefilProfesional.domain.gestioneducacion.values.GestionEducacionId;
-import co.com.sofka.prefilProfesional.usecases.porcomandos.experiencia.CrearExperienciaUseCase;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -16,9 +16,6 @@ public class TarjetaProfesional implements ValueObject<TarjetaProfesional.Proper
         if( this.respuesta.isBlank()){
             throw new IllegalArgumentException("La respuesta de la tarjeta profesional no puede estar en blanco");
         }
-        if(!(this.respuesta.equalsIgnoreCase("y") || this.respuesta.equalsIgnoreCase("n"))){
-            throw new IllegalArgumentException("La respuesta debe ser y o n");
-        }
     }
 
     @Override

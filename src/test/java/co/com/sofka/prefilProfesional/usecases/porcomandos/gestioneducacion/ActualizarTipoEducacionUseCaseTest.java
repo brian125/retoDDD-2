@@ -5,10 +5,6 @@ import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.domain.generic.DomainEvent;
-import co.com.sofka.prefilProfesional.domain.experiencia.events.ExperienciaCreada;
-import co.com.sofka.prefilProfesional.domain.experiencia.events.NuevaExperienciaLaboralAgregada;
-import co.com.sofka.prefilProfesional.domain.experiencia.values.ConocimientosAdquiridos;
-import co.com.sofka.prefilProfesional.domain.experiencia.values.ExperienciaLaboralId;
 import co.com.sofka.prefilProfesional.domain.generics.HojaDeVidaId;
 import co.com.sofka.prefilProfesional.domain.generics.Institucion;
 import co.com.sofka.prefilProfesional.domain.generics.Periodo;
@@ -64,7 +60,7 @@ class ActualizarTipoEducacionUseCaseTest {
                         new Tipo("Tecnico"),
                         new Estudio("Sistemas"),
                         new Institucion("Politecnico JIC"),
-                        new Periodo("2021/01/01 - 2019/01/01")
+                        new Periodo("6")
                 ));
     }
 

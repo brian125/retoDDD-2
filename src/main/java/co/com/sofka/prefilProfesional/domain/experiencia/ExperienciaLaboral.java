@@ -7,7 +7,6 @@ import co.com.sofka.prefilProfesional.domain.generics.Institucion;
 import co.com.sofka.prefilProfesional.domain.generics.Periodo;
 
 import java.util.Objects;
-import java.util.Set;
 
 public class ExperienciaLaboral extends Entity<ExperienciaLaboralId> {
 
